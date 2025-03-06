@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "dev.kybu.genericchathotkeys.mixins",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+      "HotkeyPressTickMixin",
+      "TutorialMessageMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "generic-chat-hotkeys",
+	"version": "${version}",
+	"name": "generic-chat-hotkeys",
+	"description": "Generic Chat Hotkeys is a mod that allows labymod-like keybinds for chat messages.",
+	"authors": [
+		"kybu"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/generic-chat-hotkeys/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "dev.kybu.genericchathotkeys.GenericChatHotkeysMain"
+		]
+	},
+	"mixins": [
+		"generic-chat-hotkeys.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
